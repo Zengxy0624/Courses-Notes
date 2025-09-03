@@ -18,7 +18,6 @@ B = np.array([
 p_sensor = np.array([0.24044249, 0.53306805, 0.60568494])
 
 p_sensor_homogeneous = np.append(p_sensor, 1)
-
 # 应用修正后的变换顺序 A @ B @ p
 p_global_homogeneous = A @ B @ p_sensor_homogeneous
 
