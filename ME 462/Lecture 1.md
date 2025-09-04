@@ -204,7 +204,7 @@ $$X(s)=(sI-A)^{-1}\cdot x(0)+(sI-A)^{-1}\cdot B\cdot U(s)$$
 **代回输出得到总响应与传递函数矩阵：**  
 $$Y(s)=C\cdot(sI-A)^{-1}\cdot x(0)+[C\cdot(sI-A)^{-1}\cdot B+D]\cdot U(s)$$
 $$\boxed{G(s)=C\cdot(sI-A)^{-1}\cdot B+D}$$
-
+![Summary](<Figure/Figure 1.1.png>)
 **零输入/零状态分解：**  
 - 零输入响应（初值引起）：$$Y_{\text{ZI}}(s)=C\cdot(sI-A)^{-1}\cdot x(0)$$
 - 零状态响应（输入引起）：$$Y_{\text{ZS}}(s)=G(s)\cdot U(s)$$
